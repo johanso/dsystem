@@ -35,7 +35,7 @@ function scssTask() {
 
 // JavaScript task
 function jsTask() {
-  return src("src/js/lib/**/*.js", { sourcemaps: true })
+  return src("src/js/**/*.js", { sourcemaps: true })
     .pipe(concat("script.js"))
     .pipe(babel({ presets: ["@babel/preset-env"] }))
     .pipe(terser({ compress: true }))
