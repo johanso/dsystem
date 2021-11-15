@@ -1,4 +1,24 @@
-body {
-  color: white;
-  background-color: black;
-}
+/* ################ 
+SETTINGS :
+################ */
+@import "./settings/settings";
+
+/* ################ 
+TOOLS :
+################ */
+@import "./tools/mixins";
+@import "./tools/functions";
+
+/* ################ 
+GENERICS :
+################ */
+@import "./generic/normalize";
+@import "./generic/base";
+
+/* ################ 
+OBJECTS : 
+################ */
+@import "./objects/container";
+@import "./objects/grid";
+@import "./objects/flexbox";
+@import "./objects/spacing";

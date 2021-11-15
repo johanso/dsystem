@@ -1,0 +1,93 @@
+// ==========================================================================
+// fontSizes : font sizes resolutions
+// ==========================================================================
+
+// ==========================================================================
+// COLORS : Eje.: background: color( primary, light );
+// ==========================================================================
+$colors: (
+  primary: (
+    base: #ff5722,
+    light: #ffccbc,
+    dark: #e64a19,
+  ),
+  secondary: (
+    base: #2196f3,
+    light: #bbdefb,
+    dark: #1976d2,
+  ),
+  complementary: (
+    base: #ff9800,
+    light: #ffe0b2,
+    dark: #f57c00,
+  ),
+  alerts: (
+    sucess: #8bc34a,
+    error: #f44336,
+    warning: #ffc107,
+    info: #00bcd4,
+  ),
+  grayscale: (
+    white: #ffffff,
+    -1: #f2f2f2,
+    -2: #eeeeee,
+    -3: #cccccc,
+    -4: #999999,
+    -5: #666666,
+    -6: #333333,
+    -7: #4a4a4a,
+    base: #1b1b1b,
+    black: #000000,
+  ),
+  controls: (
+    base: #0074fc,
+    dark: #0056b3,
+  ),
+);
+
+$font-size-default: 16px;
+
+$font-size-map: (
+  small: 14px,
+  medium: 15px,
+  large: 18px,
+  base: $font-size-default,
+);
+
+// ==========================================================================
+// sizes : Eje.: padding: map-get($sizes, "base");
+// ==========================================================================
+$sizes: (
+  xxs: 0.25rem,
+  xs: 0.5rem,
+  sm: 0.75rem,
+  base: 1rem,
+  md: 1.25rem,
+  lg: 2rem,
+  xl: 3.25rem,
+  xxl: 5.25rem,
+);
+
+// ==========================================================================
+// containers sizes
+// ==========================================================================
+$containers: (
+  sm: 33.75rem,
+  md: 45rem,
+  lg: 60rem,
+  xl: 71.25rem,
+  xxl: 82.5rem,
+  fluid: 100%,
+);
+
+// ==========================================================================
+// breakpoints (1rem = 16px) based bootstrap 5 MQ
+// ==========================================================================
+$breakpoints: (
+  xs: 23.5rem,
+  sm: 36rem,
+  md: 48rem,
+  lg: 62rem,
+  xl: 75rem,
+  xxl: 87.5rem,
+);
